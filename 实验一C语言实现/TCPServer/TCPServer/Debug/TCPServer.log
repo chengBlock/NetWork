@@ -1,0 +1,6 @@
+﻿  server.c
+d:\c\nethomework\tcpserver\tcpserver\server.c(27): warning C4047: “函数”:“int”与“void *”的间接级别不同
+d:\c\nethomework\tcpserver\tcpserver\server.c(27): warning C4024: “recv”: 形参和实参 4 的类型不同
+d:\c\nethomework\tcpserver\tcpserver\server.c(14): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
+  TCPServer.vcxproj -> D:\C\NetHomeWork\TCPServer\Debug\TCPServer.exe

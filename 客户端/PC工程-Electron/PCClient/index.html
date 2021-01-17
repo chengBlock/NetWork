@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocketClient</title>
+</head>
+
+<body>
+  <div>
+    <input id="input_ip" type="text" placeholder="47.95.39.148" value="47.95.39.148">ip<button
+      id="button_connect">连接</button>
+    <br>
+    <input id="input_port" type="number" placeholder=6789 value=6789>port
+  </div>
+
+  <div id="div_recv_msg" style="
+        background-color: aquamarine;
+        width: max-content;
+        height: max-content;
+      ">
+    接收到的消息
+  </div>
+  <input id="input_send_msg" />
+  <button id="button_send">发送</button>
+  <br>
+  <button id="button_send_file">发送文件</button>
+  <button id="button_recv_file">接收文件</button>
+  <div>版本号：1.0</div>
+  <div id="div_update">不可更新</div>
+  <button id="button_update">更新</button>
+  <script src="index.js"></script>
+</body>
+
+</html>
